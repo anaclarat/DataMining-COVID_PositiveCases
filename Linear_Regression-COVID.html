@@ -18008,8 +18008,8 @@ Maximum Cross validation score is: 0.8869667227327852
 <h1 id="Conclusions/Inferences">Conclusions/Inferences<a class="anchor-link" href="#Conclusions/Inferences">&#182;</a></h1><p>This model may explain societal factors but exercising caution is recommended, since k-fold R-Square value is low (~83%).</p>
 <p>This model points, for example:</p>
 <ul>
-<li>Being a female have more risk of having a positive case of COVID by a variation of +7.91 compared to a trans-woman, suggesting that more attention may be given to females to diminish their exposition. </li>
-<li>We also see that outbreak contamination presents a higher risk than sporadic ones explaining the variation of positive cases by approximately +1.5, indicating that it’s past due to give proper care to such sites.</li>
+<li>Being a female have more risk of having a positive case of COVID by a variation of e^+7.91 from the expected value compared to a trans-woman when all other features remain constant, suggesting that more attention may be given to females to diminish their exposition. </li>
+<li>We also see that outbreak contamination presents a higher risk than sporadic ones explaining the variation of positive cases by approximately e^+1.5 from the expected value when all other features remain constant, indicating that it’s past due to give proper care to such sites.</li>
 <li>Winter and Spring have also an impact in rising the risk of positive cases.</li>
 </ul>
 <p>As k-fold R-Square value is low a different model (non-linear) may be better to predict the output feature.</p>
